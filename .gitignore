@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and local config
+nse_intelligence/.env
+
+# Runtime data (rebuilt with: uv run python rag/indexer.py --full)
+nse_intelligence/chroma_db/
+nse_intelligence/.cache/
+nse_intelligence/logs/
+
+# OS
+.DS_Store
